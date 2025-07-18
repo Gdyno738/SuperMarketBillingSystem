@@ -1,67 +1,29 @@
-# 🛒 Supermarket Billing System
+# 🛒 Supermarket Billing System (Servlet + JSP)
 
-A simple Java-based console or web application that manages product details, billing, and invoice generation for a supermarket. Ideal for learning basic file handling, collections, or Spring MVC concepts, depending on your implementation.
+A web-based application developed using Java Servlets and JSP that simulates a basic supermarket billing system. This project helps understand how a real-time billing system works using core concepts of Advanced Java.
 
 ## 📌 Features
 
-- Add new products to inventory
-- View product list
-- Generate customer bills
-- Calculate total amount with taxes
-- Save bill history (optional: to a file or database)
+- Add/view/edit/delete products
+- Create customer bills
+- Calculate total price including tax
+- View invoice summary
+- Admin panel for product management
 
 ## 🛠️ Technologies Used
 
-Depending on your version:
-
-### Console Version:
-- Java
-- File handling
-- Collections
-
-### Web Version (Spring Boot):
-- Java
-- Spring Boot
-- Spring MVC
-- Thymeleaf
-- Maven
-- MySQL (optional)
-- HTML/CSS (for frontend)
+- Java (Core + Advanced)
+- Java Servlets
+- JSP (Java Server Pages)
+- HTML/CSS
+- Apache Tomcat (deployment)
+- Eclipse IDE
+- JDBC (optional for database integration)
 
 ## 🧑‍💻 How to Run
 
-### For Console-based Java Version:
-
-1. Clone the repository
-2. Open in Eclipse or any Java IDE
-3. Run the `Main.java` file
-4. Follow the menu prompts
-
-### For Spring Boot Version:
-
-1. Clone the repository
-2. Open in Eclipse/IntelliJ
-3. Make sure `application.properties` is configured correctly (for DB, if used)
-4. Run the `SupermarketBillingApplication.java`
-5. Open browser and go to `http://localhost:8989`
-
-## 📷 Screenshots
-
-> Add screenshots of your UI, console output, or web pages here  
-> Example:
-> ![Home Page](screenshots/homepage.png)
-
-## 🚀 Future Enhancements
-
-- Add authentication (Admin vs. Cashier)
-- Connect to MySQL/PostgreSQL database
-- Export bill to PDF
-- REST API version for integration
-
-## 🙋‍♂️ Author
-
-- **Your Name** - [yourgithubprofile](https://github.com/Gdyno738)
-
-## 📄 License
-
-This project is open-source. Feel free to use it for learning purposes.
+1. **Clone the repo** or download ZIP
+2. **Import into Eclipse** as a dynamic web project
+3. Make sure Apache Tomcat is configured in Eclipse
+4. Build and run the project on the server
+5. Access via browser:
